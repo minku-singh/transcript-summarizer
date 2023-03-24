@@ -12,7 +12,7 @@ from model import nlp_model
 app = Flask(__name__)
 CORS(app)
 
-
+# api route 
 @app.route('/api/', methods=['GET'])
 def respond():
 
